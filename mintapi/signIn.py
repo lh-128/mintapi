@@ -195,7 +195,7 @@ def _create_web_driver_at_mint_com(
         chrome_options.add_argument("remote-debugging-port=9515")
         chrome_options.add_argument("disable-dev-shm-usage")
         chrome_options.add_argument("disable-gpu")
-        chrome_options.add_arguments("crash-dumps-dir=/tmp")
+        chrome_options.add_argument("crash-dumps-dir=/tmp")
         # chrome_options.add_argument("--window-size=1920x1080")
     if session_path is not None:
         chrome_options.add_argument("user-data-dir=%s" % session_path)
